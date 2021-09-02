@@ -1,0 +1,127 @@
+.headerWapper{
+  height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerInnerWapper{
+    height: 400px;
+    min-width: 40%;
+    border: 6px solid #dfe3ed;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: var(--pure);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+
+
+.headerInnerWapper .heading h1{
+ font-size:25px;
+ color: var(--primary);
+ word-spacing: 3px;
+ margin: 40px auto 10px auto ;
+ 
+}
+
+
+@media (max-width: 592px){
+    .headerInnerWapper .heading h1{
+        font-size: 20px;
+    }
+}
+
+
+.loginWapper {
+   width: 75%;
+   margin: 20px auto;
+}
+
+.loginWapper .email {
+display: flex;
+flex-direction: column;
+}
+
+
+
+.loginWapper .email  label, .loginWapper .password  label {
+font-size: 15px;
+font-weight: 400;
+color: #857e7e;
+margin-bottom: 10px;
+text-transform: capitalize;
+}
+
+.loginWapper .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginWapper input{
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid  #857e7e;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+   
+}
+
+.loginWapper  .password{
+    margin-top: 25px;
+}
+
+.loginWapper  .password span{
+    text-align: right;
+    margin-top: 5px;
+}
+
+.loginWapper  .password span a{
+    text-decoration: none;
+    color: #595858;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+.loginWapper  .password span a:hover{
+    color:var(--primary);
+}
+
+.loginWapper input:focus{
+    outline: none ;
+    border-color: #719ECE;
+    box-shadow: 0 0 4px #719ECE;
+}
+
+.loginWapper input[type=text]{
+    padding-left: 8px;
+}
+.loginWapper input[type=password]{
+    padding-left: 8px;
+}
+
+.loginBtn{
+    width: 100%;
+    padding: 6px 0;
+    margin: 30px auto;
+
+}
+
+
+
