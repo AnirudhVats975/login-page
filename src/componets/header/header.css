@@ -23,6 +23,12 @@
    
 }
 
+@media (max-width: 592px){
+    .headerInnerWapper {
+        min-width: 60%;
+    }
+}
+
 
 
 

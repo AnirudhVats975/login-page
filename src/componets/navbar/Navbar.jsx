@@ -7,12 +7,12 @@ const Navbar = () => {
             <nav>
                 <div className="navbar">
                     <div className="brandName">
-                      <a href=""><img src="/image/brandlogo.png" alt="" /></a>
+                      <a href=""><img src="/image/brandlogo.png" alt="logo" /></a>
                     </div>
 
                     <div className="navLink">
                   <a href="">Don't have account?</a>
-                      <button className="btnDefault">Sign up</button>
+                      <button className="btnDefault signupBtn">Sign up</button>
                     </div>
                 </div>
             </nav>
